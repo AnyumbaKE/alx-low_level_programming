@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - returns all numbers of base 16 in lowercase
+ * main - returns all possible combinations of a singel digit
  *
  * Return: Always 0 (Success)
  */
