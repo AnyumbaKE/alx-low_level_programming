@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (x == 0)
 			printf("%ld", y);
-		else if (i == 1)
+		else if (x == 1)
 			printf(", %ld", z);
 		else
 		{
@@ -23,7 +23,7 @@ int main(void)
 			y = x - y;
 			printf(", %ld", z);
 		}
-		++x
+		++x;
 	}
 	printf("\n");
 	return (0);
