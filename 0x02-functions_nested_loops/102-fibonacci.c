@@ -6,25 +6,27 @@
  */
 
 int main(void)
-{
-	int x = 0;
-	long y = 1;
-	long z = 2;
 
-	while (x < 50)
+{
+	long int w, x, y, z;
+
+	x = 1;
+	y = 2;
+
+	for (w = 1; w <= 50; ++w)
 	{
-		if (x == 0)
-			printf("%ld", y);
-		else if (x == 1)
-			printf(", %ld", z);
+		if (x != 20365011074)
+		{
+			printf("%ld, ", x);
+		}
+
 		else
 		{
-			z += y;
-			y = x - y;
-			printf(", %ld", z);
+			printf("%ld\n", x);
 		}
-		++x;
+		z = x + y;
+		x = y;
+		y = z;
 	}
-	printf("\n");
 	return (0);
 }
