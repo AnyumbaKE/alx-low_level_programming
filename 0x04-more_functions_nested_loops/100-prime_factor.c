@@ -11,7 +11,7 @@ int main(void)
 
 	for (; x < 12057; x += 2)
 	{
-		while (number % i == 0 && number != x)
+		while (number % x == 0 && number != x)
 			number /= x;
 	}
 	printf("%lu\n", number);
