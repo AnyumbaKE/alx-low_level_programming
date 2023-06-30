@@ -6,7 +6,6 @@
  * @str: string
  * Return: Always 0.
  */
-
 char *cap_string(char *str)
 {
 	int index = 0;
