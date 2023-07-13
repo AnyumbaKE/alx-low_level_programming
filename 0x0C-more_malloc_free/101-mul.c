@@ -33,11 +33,13 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
+		fputs("Error\n", stdout);
 		return (98);
 	}
 
 	if (!validate_input(argv[1]) || !validate_input(argv[2]))
 	{
+		fputs("Error\n", stdout);
 		return (98);
 	}
 
