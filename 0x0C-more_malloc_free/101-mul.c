@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 	while (index > 0)
 		putchar(result_str[--index]);
 
-	putchar('\n');
+	printf("%d\n", result);
 
 	return (0);
 }
