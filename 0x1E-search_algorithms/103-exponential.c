@@ -5,7 +5,8 @@
 /**
  * _binary_search - searches for a value in a sorted array of integers
  * @array: element of the array
- * @size: the number of elements in array
+ * @left: The starting index of the [sub]array to search
+ * @right: The ending index of the [sub]array to search
  * @value:  the value to search for
  * Return: value of index or -1 for NULL
  **/
