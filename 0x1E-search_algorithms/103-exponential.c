@@ -9,14 +9,14 @@
  * @value:  the value to search for
  * Return: value of index or -1 for NULL
  **/
-int _binary_search(int *array, size_t size, int value)
+int _binary_search(int *array, size_t left, size_t right, int value)
 {
-	size_t x, left, right;
+	size_t x;
 
 	if (array == NULL)
 		return (-1);
 
-	for (left = 0, right = size - 1; right >= left;)
+	while (right >= left)
 	{
 		printf("Searching in array: ");
 		for (x = left; x < right; x++)
